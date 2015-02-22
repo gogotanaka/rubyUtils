@@ -1,1 +1,4 @@
     $  patch -u < [patchfile]
+
+
+    $ git format-patch HEAD~1 --stdout -n --to https://bugs.ruby-lang.org/ --signature gogotanaka > your_patch.patch
