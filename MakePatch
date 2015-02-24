@@ -4,3 +4,8 @@
     ... modify
     
     
+    $ git add -A .
+    $ git commit
+    
+    $ git svn dcommit
+    
