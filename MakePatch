@@ -1,11 +1,12 @@
-    $ git svn fetch
-    $ git svn rebase
-    
-    ... modify
-    
-    
-    $ git add -A .
-    $ git commit
-    
-    $ git svn dcommit
+    git svn fetch
+    git svn rebase
+    .. modify
+
+    git add -A .
+    git commit
+    git svn dcommit
+
+    autoconf
+    mkdir /tmp/ruby; cd /tmp/ruby
+    /Users/gogo/dev/CRuby3/ruby/configure 
     
