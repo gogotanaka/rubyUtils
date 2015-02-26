@@ -10,3 +10,7 @@
     mkdir /tmp/ruby; cd /tmp/ruby
     /Users/gogo/dev/CRuby3/ruby/configure 
     
+    $:<< "/Users/gogo/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/test-unit-3.0.9/lib"
+
+    require '/Users/gogo/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/test-unit-3.0.9/lib/test/unit'
+    
