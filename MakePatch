@@ -22,3 +22,7 @@
 
     
     rb_define_module_function(rb_mMath, "debugger", math_debugger, 1);
+    
+    
+# doc
+    rdoc enum.c  -o /tmp/ruby_doc
