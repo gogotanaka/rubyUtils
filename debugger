@@ -1,0 +1,2 @@
+VALUE vs[1] = { rb_sprintf("%lu\n", sizeof(int)) };
+  rb_funcall2(rb_stdout, rb_intern("puts"), 1, vs);
