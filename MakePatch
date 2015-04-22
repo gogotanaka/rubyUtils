@@ -11,9 +11,8 @@
     make
     make install
     
-    $:<< "/Users/gogo/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/test-unit-3.0.9/lib"
-
-    require '/Users/gogo/.rbenv/versions/2.2.0/lib/ruby/gems/2.2.0/gems/test-unit-3.0.9/lib/test/unit'
+    $:<< './test/lib'
+    /tmp/ruby/bin/ruby test/ruby/test_object.rb
     
     static VALUE
     math_debugger(VALUE obj, VALUE x)
