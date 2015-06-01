@@ -7,7 +7,7 @@
     git svn dcommit
 
     autoconf
-    ./configure --prefix=/tmp/ruby
+    ./configure --prefix=/tmp/ruby --disable-install-doc --disable-install-rdoc 
     make
     make install
     
